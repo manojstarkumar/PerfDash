@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<%@ page import="com.mweb.symc.common.Constants"%>
 <html lang="en">
 
 <head>
@@ -59,7 +60,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/Flash">Flash<small style="font-size: 55%;">  A PerfWork ;)</small></a>
+                <a class="navbar-brand" href="<%=Constants.machineRoot %>/Flash">Flash<small style="font-size: 55%;">  A PerfWork ;)</small></a>
             </div>
             <!-- Top Menu Items -->
             
@@ -67,13 +68,13 @@
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
 				                    <li>
-                        <a href="/Flash"><i class="fa fa-fw fa-table"></i> Home</a>
+                        <a href="<%=Constants.machineRoot %>/Flash"><i class="fa fa-fw fa-table"></i> Home</a>
                     </li>
                     <li>
-                        <a href="/Flash/newRun.jsp"><i class="fa fa-fw fa-dashboard"></i> New Run</a>
+                        <a href="<%=Constants.machineRoot %>/Flash/newRun.jsp"><i class="fa fa-fw fa-dashboard"></i> New Run</a>
                     </li>
                     <li class="active">
-                        <a href="/PerfDash"><i class="fa fa-fw fa-bar-chart-o"></i> Performance Trends</a>
+                        <a href="<%=Constants.machineRoot %>/PerfDash"><i class="fa fa-fw fa-bar-chart-o"></i> Performance Trends</a>
                     </li>
                 </ul>
             </div>

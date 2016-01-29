@@ -17,4 +17,6 @@ public class Constants {
 	public static final String mongoDatabase = "test";
 	public static final int queryLimit = 6;
 	
+	public static final String machineRoot = "http://10.223.19.73/apps";
+	
 }

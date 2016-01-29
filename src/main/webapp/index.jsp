@@ -1,3 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<%@ page import="com.mweb.symc.common.Constants"%>
 <jsp:include page="common.jsp"></jsp:include>
 <div id="page-wrapper">
 
@@ -10,7 +13,7 @@
 					Dashboard <small>Statistics Overview</small>
 				</h1>
 				<ol class="breadcrumb">
-					<li><i class="fa fa-dashboard"></i> <a href="/PerfDash">Dashboard</a>
+					<li><i class="fa fa-dashboard"></i> <a href="<%=Constants.machineRoot %>/PerfDash">Dashboard</a>
 					</li>
 					<li class="active"><i class="fa fa-edit"></i> Trends</li>
 				</ol>
